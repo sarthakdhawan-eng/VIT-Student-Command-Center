@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Python",
+        "marks": 84.0,
+        "max_marks": 100.0,
+        "attendance": 91.0
+    },
+    {
+        "name": "Mathematics",
+        "marks": 76.0,
+        "max_marks": 100.0,
+        "attendance": 86.0
+    },
+    {
+        "name": "Physics",
+        "marks": 81.0,
+        "max_marks": 100.0,
+        "attendance": 76.0
+    },
+    {
+        "name": "English",
+        "marks": 88.0,
+        "max_marks": 100.0,
+        "attendance": 95.0
+    }
+]
