@@ -241,9 +241,7 @@ class StudentCommandCenter:
                 error("Invalid option. Please try again.")
                 pause()
 
-    # =================================================================
     # 3. EXPENSE TRACKER
-    # =================================================================
     def expense_menu(self):
         while True:
             clear_screen()
@@ -302,9 +300,7 @@ class StudentCommandCenter:
                 error("Invalid option. Please try again.")
                 pause()
 
-    # =================================================================
-    # 4. ATTENDANCE CALCULATOR & BUNK PLANNER
-    # =================================================================
+    # 4. ATTENDANCE CALCULATOR
     def attendance_menu(self):
         clear_screen()
         banner("ATTENDANCE CALCULATOR")
@@ -373,9 +369,7 @@ class StudentCommandCenter:
 
         return bunks
 
-    # =================================================================
     # 5. STUDY PLANNER
-    # =================================================================
     def study_menu(self):
         while True:
             clear_screen()
@@ -414,9 +408,7 @@ class StudentCommandCenter:
                 error("Invalid choice. Try again.")
                 pause()
 
-    # =================================================================
     # 6. STUDENT PROFILE
-    # =================================================================
     def profile_menu(self):
         clear_screen()
         banner("STUDENT PROFILE")
@@ -450,11 +442,9 @@ class StudentCommandCenter:
             success("Profile updated successfully.")
             pause()
 
-    # =================================================================
     # SAVE & EXIT UTILITIES
-    # =================================================================
     def save_all(self):
-        """Explicitly saves all in-memory lists to their respective JSON files."""
+        #Explicitly saves all in-memory lists to their respective JSON files.
         self.storage.save_student(self.student)
         self.storage.save_subjects(self.subjects)
         self.storage.save_assignments(self.assignments)
@@ -475,9 +465,7 @@ class StudentCommandCenter:
         banner("SEE YOU SOON!", "VIT Student Command Center")
         print(f"\n  Goodbye {self.student.name}! All your data is saved.\n")
 
-    # =================================================================
     # USER INPUT VALIDATION HELPERS
-    # =================================================================
     @staticmethod
     def _read_float(prompt, minimum=None, maximum=None):
         while True:
