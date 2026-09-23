@@ -1,7 +1,7 @@
 # VIT Student Command Center
 
 ## Introduction
-The VIT Student Command Center is a Python-based desktop command-line application designed to help students manage their academic, personal, and daily responsibilities in one place. The project was created to simplify routine student tasks such as tracking marks, managing assignments, monitoring attendance, planning study sessions, and recording expenses.
+The VIT Student Command Center is a Python based desktop command line application (CLI) designed to help students manage their academic, personal, and daily responsibilities in one place. The project was created to simplify routine student tasks such as tracking marks, managing assignments, monitoring attendance, planning study sessions, and recording expenses.
 
 Instead of keeping information in multiple places, students can use this system to maintain a centralized record of their work and progress. The project is simple, easy to use, and built using Python’s built-in features without requiring any external libraries.
 
